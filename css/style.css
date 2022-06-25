@@ -27,3 +27,12 @@ body, html{
 .title--orange h3{
     color: #ff6600;
 }
+
+/* BEST SELLERS */
+.bestSellers{
+    background-color: #ff6600;
+}
+
+.bestSellers .bestSellers__right p{
+    color: #ffdfc9;
+}
