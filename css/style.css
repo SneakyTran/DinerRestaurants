@@ -28,6 +28,14 @@ body, html{
     color: #ff6600;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
 /* BEST SELLERS */
 .bestSellers{
     background-color: #ff6600;
