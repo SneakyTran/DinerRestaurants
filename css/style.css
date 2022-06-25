@@ -28,6 +28,17 @@ body, html{
     color: #ff6600;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+    color: #eee;
+}
+
 a{
     text-decoration: none;
 }
@@ -41,6 +52,42 @@ ul, li{
     background-color: #ff6600;
 }
 
-.bestSellers .bestSellers__right p{
+.bestSellers__left img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 600px;
+}
+
+.bestSellers__right i{
+    font-size: 25px;
+    color: #ff6600;
+    background-color: white;
+
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+}
+
+.bestSellers__right a{
+    font-size: 20px;
+    display: block;
+    color: #eee;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.bestSellers__right p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     color: #ffdfc9;
 }
+
+
+
