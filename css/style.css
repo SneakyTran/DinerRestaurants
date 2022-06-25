@@ -27,3 +27,11 @@ body, html{
 .title--orange h3{
     color: #ff6600;
 }
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
