@@ -231,3 +231,44 @@ li {
     color: #ff6600;
     text-decoration: none;
 }
+
+/* CONTACT US */
+.contactUs{
+    background: url('../img/banner2.jpg') center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.contactUs::before{
+    content: "";
+    background-color: rgb(16 15 19 / 66%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.contactUs .container{
+    max-width: 1200px;
+}
+
+.contactUs--inner{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactUs h3{
+    font-size: 2.8125rem;
+    line-height: 3.4375rem;
+    font-weight: 600;
+    color: white;
+    max-width: 800px;
+}
+
+.contactUs a{
+    display: inline-block;
+}
