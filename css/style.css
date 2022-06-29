@@ -13,6 +13,10 @@ html {
     color: white;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 .title h3 {
     font-size: 1.25rem;
     font-weight: 400;
@@ -160,10 +164,6 @@ li {
     background-color: #232220;
 }
 
-.services .container {
-    max-width: 1200px;
-}
-
 .services__item {
     padding: 40px 40px;
     border-radius: 8px;
@@ -253,10 +253,6 @@ li {
     z-index: -1;
 }
 
-.contactUs .container {
-    max-width: 1200px;
-}
-
 .contactUs--inner {
     max-width: 700px;
     margin: 0 auto;
@@ -280,10 +276,6 @@ li {
     margin-top: -70px;
     z-index: 10;
     position: relative;
-}
-
-.number .container {
-    max-width: 1200px;
 }
 
 .number__content {
