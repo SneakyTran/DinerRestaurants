@@ -643,14 +643,22 @@ footer {
 
 /*=====================RESPONSIVE======================*/
 
+@media screen and (max-width: 1080px) {
+    /* TITLE */
+    .title h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
 @media screen and (max-width: 991.98px) {
     /* BEST SELLERS */
-    .bestSellers__left{
+    .bestSellers__left {
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .bestSellers__left::after{
+    .bestSellers__left::after {
         top: 3rem;
         left: 15px;
         right: 15px;
@@ -658,7 +666,50 @@ footer {
         height: 200px;
     }
 
-    .bestSellers__left img{
+    .bestSellers__left img {
         height: 200px;
+    }
+
+    .bestSellers__subcribe__item a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* TITLE */
+    .title h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .title h3{
+        font-size: 16px;
+    }
+
+    /* PARAGRAPH ELEMENT */
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* TITLE */
+    .title h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* TITLE */
+    .title h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .title h3{
+        font-size: 16px;
+        letter-spacing: 0.5px;
     }
 }
