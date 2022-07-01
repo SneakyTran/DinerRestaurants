@@ -686,6 +686,11 @@ footer {
         font-size: 32px;
         line-height: 40px;
     }
+
+    /* SERVICES */
+    .services__info a{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 991.98px) {
