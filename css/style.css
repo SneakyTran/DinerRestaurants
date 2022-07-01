@@ -642,6 +642,43 @@ footer {
 }
 
 /*=====================RESPONSIVE======================*/
+/* CONTAINER */
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* END CONTAINER */
 
 @media screen and (max-width: 1080px) {
     /* TITLE */
@@ -670,7 +707,7 @@ footer {
         height: 200px;
     }
 
-    .bestSellers__subcribe__item a{
+    .bestSellers__subcribe__item a {
         font-size: 18px;
     }
 }
@@ -682,12 +719,12 @@ footer {
         line-height: 38px;
     }
 
-    .title h3{
+    .title h3 {
         font-size: 16px;
     }
 
     /* PARAGRAPH ELEMENT */
-    p{
+    p {
         font-size: 16px;
         line-height: 26px;
     }
@@ -708,7 +745,7 @@ footer {
         line-height: 34px;
     }
 
-    .title h3{
+    .title h3 {
         font-size: 16px;
         letter-spacing: 0.5px;
     }
