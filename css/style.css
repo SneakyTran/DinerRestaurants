@@ -642,7 +642,7 @@ footer {
 }
 
 /*=====================RESPONSIVE======================*/
-/* CONTAINER */
+/* CONTAINER GLOBAL*/
 @media screen and (max-width: 1280px) {
     .container {
         max-width: 1140px;
@@ -678,10 +678,10 @@ footer {
         padding-right: 15px;
     }
 }
-/* END CONTAINER */
+/* END CONTAINER GLOBAL */
 
 @media screen and (max-width: 1080px) {
-    /* TITLE */
+    /* TITLE GLOBAL*/
     .title h2 {
         font-size: 32px;
         line-height: 40px;
@@ -718,7 +718,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    /* TITLE */
+    /* TITLE GLOBAL*/
     .title h2 {
         font-size: 30px;
         line-height: 38px;
@@ -728,7 +728,7 @@ footer {
         font-size: 16px;
     }
 
-    /* PARAGRAPH ELEMENT */
+    /* PARAGRAPH ELEMENT GLOBAL*/
     p {
         font-size: 16px;
         line-height: 26px;
@@ -736,7 +736,7 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    /* TITLE */
+    /* TITLE GLOBAL*/
     .title h2 {
         font-size: 26px;
         line-height: 36px;
@@ -744,7 +744,7 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-    /* TITLE */
+    /* TITLE GLOBAL*/
     .title h2 {
         font-size: 24px;
         line-height: 34px;
