@@ -727,6 +727,12 @@ footer {
     .number {
         margin-top: 0px;
     }
+
+    /* POSTS */
+    .posts__item .card-body > a{
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -769,7 +775,8 @@ footer {
 
     /* PARAGRAPH ELEMENT GLOBAL*/
     p,
-    .services__item p:last-of-type {
+    .services__item p:last-of-type,
+    .posts__item .card-body p{
         font-size: 16px;
         line-height: 26px;
     }
