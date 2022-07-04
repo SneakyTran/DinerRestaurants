@@ -729,7 +729,7 @@ footer {
     }
 
     /* PARAGRAPH ELEMENT GLOBAL*/
-    p {
+    p, .services__item p:last-of-type {
         font-size: 16px;
         line-height: 26px;
     }
