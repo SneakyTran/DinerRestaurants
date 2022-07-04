@@ -733,6 +733,32 @@ footer {
         font-size: 20px;
         line-height: 30px;
     }
+
+    /* FOOTER */
+    .footer__social{
+        text-align: center;
+    } 
+
+    .footer__nav h4, 
+    .footer__subcribe h4
+    {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer__bottom{
+        display: block;
+        margin-top: 3rem;
+    }
+
+    .footer__bottom .copyright{
+        text-align: center;
+    }
+    
+    .footer__bottom__nav ul{
+        justify-content: stretch;
+        flex-wrap: nowrap;
+    }
 }
 
 @media screen and (max-width: 900px) {
