@@ -270,6 +270,14 @@ header {
     display: inline-block;
 }
 
+/* ABOUT US */
+.aboutUs__content p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #c2d0da;
+    margin: 0;
+}
+
 /* BEST SELLERS */
 .bestSellers {
     position: relative;
