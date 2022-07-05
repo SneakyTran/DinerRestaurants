@@ -243,7 +243,31 @@ header {
         url(../img/banner1.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    min-height: 700px;
+}
+
+.carousel__content {
+    margin-top: 47px;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel__content h3{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 600;
+    color: white;
+}
+
+.carousel__content p{
+    line-height: 28px;
+    margin: 0;
+}
+
+.carousel__content a{
+    display: inline-block;
 }
 
 /* BEST SELLERS */
