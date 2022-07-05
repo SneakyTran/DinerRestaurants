@@ -101,7 +101,6 @@ header {
     top: 0;
     left: 50%;
     width: 100%;
-    height: 100%;
     transform: translateX(-50%);
     z-index: 2;
 }
@@ -169,7 +168,7 @@ header {
     cursor: pointer;
 }
 
-header .overlay {
+.menu .overlay {
     position: fixed;
     width: 100%;
     height: 100%;
@@ -179,14 +178,14 @@ header .overlay {
     z-index: 999999;
 }
 
-header .overlay--scale {
+.menu .overlay--scale {
     visibility: hidden;
     opacity: 0;
     transform: scale(0.9);
     transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
 }
 
-header .open {
+.menu .open {
     visibility: visible;
     opacity: 1;
     transform: scale(1);
