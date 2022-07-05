@@ -254,24 +254,24 @@ header {
     transform: translateY(-50%);
 }
 
-.carousel__content h3{
+.carousel__content h3 {
     font-size: 54px;
     line-height: 64px;
     font-weight: 600;
     color: white;
 }
 
-.carousel__content p{
+.carousel__content p {
     line-height: 28px;
     margin: 0;
 }
 
-.carousel__content a{
+.carousel__content a {
     display: inline-block;
 }
 
 /* ABOUT US */
-.aboutUs__content p{
+.aboutUs__content p {
     font-size: 18px;
     line-height: 28px;
     color: #c2d0da;
@@ -343,6 +343,70 @@ header {
     font-size: 1.125rem;
     line-height: 1.75rem;
     color: #ffdfc9;
+}
+
+/* CATEGORIES */
+.categories {
+    background-color: #282828;
+}
+
+.categories .title {
+    text-align: center;
+}
+
+.categories__image {
+    position: relative;
+}
+
+.categories__image::after {
+    content: "";
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0,
+        rgba(0, 0, 0, 0.53) 69%,
+        rgba(0, 0, 0, 0.76) 100%
+    );
+    transition: all 0.3s cubic-bezier(0.7, 1, 0.7, 1);
+    border-radius: 6px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+}
+
+.categories__image img {
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.categories__image img:hover {
+    opacity: 0.85;
+    transition: all 0.4s;
+}
+
+.categories__content {
+    position: absolute;
+    bottom: 1rem;
+    left: 4rem;
+}
+
+.categories__content a {
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+}
+
+.categories__content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ffc600;
+    line-height: 25px;
+    opacity: 0.9;
 }
 
 /* SERVICES */
