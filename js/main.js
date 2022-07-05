@@ -27,3 +27,23 @@ $(".open--video--popup").magnificPopup({
 
     removalDelay: 300,
 });
+
+/**
+ * Author: Sneaky
+ * Date Created: 05/07/2022
+ * open overlay menu
+ */
+function openMenu(){
+    document.getElementById("menu").classList.add("open");
+}
+document.getElementById("btnPopup").onclick = openMenu;
+
+/**
+ * Author: Sneaky
+ * Date Created: 05/07/2022
+ * close overlay menu
+ */
+function closeMenu(){
+    document.getElementById("menu").classList.remove("open");
+}
+document.getElementById("btnCloseMenu").onclick = closeMenu;

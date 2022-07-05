@@ -38,7 +38,48 @@
 
 <body>
     <!-- HEADER -->
-    <header></header>
+    <header>
+        <div class="container">
+            <div class="header--grid">
+                <div class="header__brand">
+                    <h1><a href="#">Diner</a></h1>
+                </div>
+                <div class="header__menu">
+                    <div class="search__bar">
+                        <form>
+                            <input type="text" placeholder="Search here..">
+                            <span class="fa-solid fa-magnifying-glass"></span>
+                        </form>
+                    </div>
+                    <div class="toggle--theme">
+                        <i class="fa-regular fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+                    <div id="btnPopup" class="popup--menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="menu" class="overlay overlay--scale">
+                <button id="btnCloseMenu" class="overlay--close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">404</a></li>
+                        <li><a href="#">Landing Page</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Shot Codes</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
     <!-- CAROUSEL -->
     <section class="carousel"></section>
