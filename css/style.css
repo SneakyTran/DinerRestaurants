@@ -13,6 +13,10 @@ html {
     color: white;
 }
 
+.dark{
+    background-color: white;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -300,7 +304,7 @@ header {
 }
 
 /* ABOUT US */
-.dark .aboutUs{
+.dark .aboutUs {
     background-color: white;
 }
 
@@ -311,7 +315,7 @@ header {
     margin: 0;
 }
 
-.dark .aboutUs__content p{
+.dark .aboutUs__content p {
     color: rgb(22 28 45 / 70%);
 }
 
@@ -391,6 +395,10 @@ header {
     background-color: #282828;
 }
 
+.dark .categories {
+    background-color: #f7f7f7;
+}
+
 .categories .title {
     text-align: center;
 }
@@ -455,11 +463,16 @@ header {
     background-color: #232220;
 }
 
+.dark .services {
+    background-color: white;
+}
+
 .services__item {
     padding: 40px 40px;
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 3%);
+    transition: all 0.5s ease 0s;
 }
 
 .services__item p {
@@ -469,6 +482,10 @@ header {
 .services__item p:last-of-type {
     color: #c2d0da;
     font-size: 1.125rem;
+}
+
+.dark .services__item p:last-of-type {
+    color: rgb(22 28 45 / 70%);
 }
 
 .services__item--grid {
@@ -487,6 +504,10 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
+.dark .services__icon {
+    background-color: rgb(130 115 252 / 5%);
+}
+
 .services__item:hover .services__icon {
     background-color: #ff6600;
 }
@@ -501,6 +522,10 @@ header {
 
 .services__item:hover .services__icon i {
     color: white;
+}
+
+.dark .services__item:hover {
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
 }
 
 .services__info p {
@@ -518,6 +543,10 @@ header {
     display: block;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.dark .services__info a {
+    color: #232121;
 }
 
 .services__info a:hover {
@@ -578,6 +607,10 @@ header {
     transition: all 0.3s ease;
 }
 
+.dark .number__content {
+    background-color: white;
+}
+
 .number__content:hover {
     transform: translateY(-0.25rem);
     box-shadow: rgb(46 41 51 / 8%) 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px;
@@ -600,9 +633,17 @@ header {
     margin-top: 16px;
 }
 
+.dark .number__content .number {
+    color: #232121;
+}
+
 .number__content p {
     color: #c2d0da;
     font-weight: 600;
+}
+
+.dark .number__content p {
+    color: rgb(22 28 45 / 70%);
 }
 
 /* VIDEO */
@@ -691,6 +732,10 @@ header {
     background-color: #282828;
 }
 
+.dark .posts{
+    background-color: #f7f7f7;
+}
+
 .posts .title {
     text-align: center;
 }
@@ -745,11 +790,23 @@ header {
     margin: 25px 0 15px;
 }
 
+.dark .posts__item .card-body > a{
+    color: #232121;
+}
+
 .posts__item .card-body p {
     margin: 0;
     font-size: 18px;
     line-height: 28px;
     color: #c2d0da;
+}
+
+.dark .posts__item .card-body p {
+    color: rgb(22 28 45 / 70%);
+}
+
+.dark .posts .card{
+    border: none;
 }
 
 .card-body-footer .author img {
@@ -762,6 +819,10 @@ header {
     color: #eee;
     font-weight: 700;
     letter-spacing: 0.02em;
+}
+
+.dark .card-body-footer a{
+    color: #232121;
 }
 
 .card-body-footer {
@@ -831,6 +892,10 @@ header {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.dark .testimonials__quote .quote{
+    color: #232121;
+}
+
 .testimonials__quote .quote::before {
     content: '"';
     font-size: 65px;
@@ -845,9 +910,17 @@ header {
     line-height: 28px;
 }
 
+.dark .testimonials__quote p{
+    color: rgb(22 28 45 / 70%);
+}
+
 .testimonials__author h3 {
     font-weight: 600;
     font-size: 20px;
+}
+
+.dark .testimonials__author h3{
+    color: #232121;
 }
 
 .testimonials__author p {
@@ -856,6 +929,10 @@ header {
     margin-bottom: 0;
     opacity: 0.8;
     margin-top: 4px;
+}
+
+.dark .testimonials__author p{
+    color: rgb(22 28 45 / 70%);
 }
 
 .testimonials__content .slick-dots li button::before {
@@ -892,6 +969,10 @@ footer {
     line-height: 26px;
 }
 
+.footer__brand a:hover{
+    color: #ff6600;
+}
+
 .footer__content p {
     margin: 0;
     font-size: 17px;
@@ -911,6 +992,10 @@ footer {
     margin-right: 10px;
     display: inline-block;
     transition: all 0.3s;
+}
+
+.dark .footer__social a{
+    background-color: white;
 }
 
 .footer__social a:hover {
@@ -957,6 +1042,11 @@ footer {
     color: #c2d0da;
     background-color: #232220;
     border-radius: 6px;
+}
+
+.dark .footer__subcribe input{
+    color: rgb(22 28 45 / 70%);
+    background-color: white;
 }
 
 .footer__subcribe button {
