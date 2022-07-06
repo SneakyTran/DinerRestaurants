@@ -1117,6 +1117,11 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    /* HEADER */
+    .search__bar{
+        display: none;
+    }
+    
     /* TITLE GLOBAL*/
     .title h2 {
         font-size: 30px;
