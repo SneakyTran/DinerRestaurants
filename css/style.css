@@ -365,6 +365,10 @@ header {
     margin-bottom: 15px;
 }
 
+.dark .bestSellers__right a {
+    color: rgb(22 28 45 / 70%);
+}
+
 .bestSellers__right a:hover {
     opacity: 0.9;
     text-decoration: none;
