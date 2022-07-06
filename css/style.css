@@ -300,11 +300,19 @@ header {
 }
 
 /* ABOUT US */
+.dark .aboutUs{
+    background-color: white;
+}
+
 .aboutUs__content p {
     font-size: 18px;
     line-height: 28px;
     color: #c2d0da;
     margin: 0;
+}
+
+.dark .aboutUs__content p{
+    color: rgb(22 28 45 / 70%);
 }
 
 /* BEST SELLERS */
