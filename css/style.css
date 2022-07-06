@@ -1190,7 +1190,9 @@ footer {
     /* PARAGRAPH ELEMENT GLOBAL*/
     p,
     .services__item p:last-of-type,
-    .posts__item .card-body p {
+    .posts__item .card-body p,
+    .aboutUs__content p
+    {
         font-size: 16px;
         line-height: 26px;
     }
