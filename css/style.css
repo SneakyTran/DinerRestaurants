@@ -747,6 +747,15 @@ header {
 }
 
 /* TESTIMONIALS */
+.testimonials{
+    padding: 3rem 0;
+}
+
+.testimonials .container{
+    padding-top: 3rem;
+    padding-bottom: 18px;
+}
+
 .testimonials .title {
     text-align: center;
 }
@@ -1081,6 +1090,11 @@ footer {
         line-height: 30px;
     }
 
+    /* TESTIMONIALS */
+    .testimonials .container{
+        padding-bottom: 0;
+    }
+
     /* FOOTER */
     .footer__social {
         text-align: center;
@@ -1161,6 +1175,11 @@ footer {
         left: 2.5rem;
         bottom: 0;
     }
+
+    /* TESTIMONIALS */
+    .testimonials{
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -1168,6 +1187,13 @@ footer {
     .contactUs h3 {
         font-size: 35px;
         line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .testimonials__quote .quote{
+        font-size: 22px;
+        line-height: 32px;
     }
 }
 
@@ -1207,7 +1233,8 @@ footer {
     p,
     .services__item p:last-of-type,
     .posts__item .card-body p,
-    .aboutUs__content p
+    .aboutUs__content p,
+    .testimonials__quote p
     {
         font-size: 16px;
         line-height: 26px;
@@ -1248,6 +1275,14 @@ footer {
     /* NUMBER */
     .number__content p {
         font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    /* TESTIMONIALS */
+    .testimonials__quote .quote{
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 
