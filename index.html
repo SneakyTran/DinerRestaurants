@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body id="body">
     <!-- HEADER -->
     <header>
         <div class="container">
@@ -47,13 +47,13 @@
                 <div class="header__menu">
                     <div class="search__bar">
                         <form>
-                            <input type="text" placeholder="Search here..">
+                            <input type="search" placeholder="Search here.." required>
                             <span class="fa-solid fa-magnifying-glass"></span>
                         </form>
                     </div>
-                    <div class="toggle--theme">
-                        <i class="fa-regular fa-sun"></i>
-                        <i class="fa-solid fa-moon"></i>
+                    <div id="btnToggleTheme" class="toggle--theme">
+                        <i id="icoSun" class="fa-regular fa-sun"></i>
+                        <i id="icoMoon" class="fa-regular fa-moon"></i>
                     </div>
                     <div id="btnPopup" class="popup--menu">
                         <i class="fa-solid fa-bars"></i>

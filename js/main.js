@@ -61,3 +61,13 @@ $(document).ready(function () {
         speed: 250
     });
 });
+
+/**
+ * Author: Sneaky
+ * Date Created: 06/07/2022
+ * toggle theme
+ */
+function changeTheme(){
+    document.getElementById("body").classList.toggle("dark");
+}
+document.getElementById("btnToggleTheme").onclick = changeTheme;
