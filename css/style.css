@@ -1096,6 +1096,17 @@ footer {
     }
 }
 
+@media screen and (max-width: 767px){
+    /* HEADER */
+    .menu li{
+        line-height: 2.5em;
+    }
+
+    .menu li a{
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 736px) {
     /* CONTACT US */
     .contactUs h3 {
@@ -1120,6 +1131,10 @@ footer {
     /* HEADER */
     .search__bar{
         display: none;
+    }
+    
+    .menu li{
+        line-height: 2.2em;
     }
     
     /* TITLE GLOBAL*/
@@ -1183,5 +1198,19 @@ footer {
     .title h3 {
         font-size: 16px;
         letter-spacing: 0.5px;
+    }
+}
+
+@media screen and (max-height: 425px){
+    /* HEADER */
+    .overlay nav{
+        height: 80%;
+    }
+}
+
+@media screen and (max-height: 325px){
+    /* HEADER */
+    .overlay nav{
+        height: 90%;
     }
 }
