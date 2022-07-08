@@ -1463,7 +1463,22 @@ footer {
 @media screen and (max-height: 425px) {
     /* HEADER */
     .overlay nav {
-        height: 80%;
+        height: 90%;
+    }
+
+    .overlay li{
+        line-height: 2.5em;
+    }
+
+    .overlay li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-height: 376px){
+    /* HEADER */
+    .overlay nav {
+        height: 100%;
     }
 }
 
@@ -1471,5 +1486,13 @@ footer {
     /* HEADER */
     .overlay nav {
         height: 90%;
+    }
+
+    .overlay li{
+        line-height: 2em;
+    }
+
+    .overlay li a{
+        font-size: 14px;
     }
 }
