@@ -1460,7 +1460,7 @@ footer {
     }
 }
 
-@media screen and (max-height: 425px) {
+@media screen and (max-height: 430px) {
     /* HEADER */
     .overlay nav {
         height: 90%;
