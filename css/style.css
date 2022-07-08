@@ -843,6 +843,10 @@ header {
     opacity: 0.9;
 }
 
+.card-body-footer a:last-child:not(.author__name){
+    white-space : nowrap;
+}
+
 .card-body-footer a:last-child:not(.author__name):hover {
     color: #ff6600;
 }
